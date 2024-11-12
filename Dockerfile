@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 3000
 
 # Step 7: Define the command to run the app when the container starts
-CMD ["node", "start"]
+CMD ["node", "index.js"]
